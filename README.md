@@ -52,11 +52,11 @@ git clone <repo-clone-url>
 2. Move in the project and launch SonarQube
 
 ```
-cd qs-workshop-sonarqube
+cd workshop-sonarqube
 docker compose -p workshop  -f source/etc/docker/docker-compose.yml up -d
 ```
 
-3. Open the browser at [localhost:9000](localhost:9000)
+3. Open the browser at [localhost:9000](http://localhost:9000)
 
 
 <br>
@@ -64,7 +64,7 @@ docker compose -p workshop  -f source/etc/docker/docker-compose.yml up -d
 
 ### 3.2. Create your project into SonarQube
 
-We have a SonarQube instance running on our local machine at [localhost:9000](localhost:9000). 
+We have a SonarQube instance running on our local machine at [localhost:9000](http://localhost:9000). 
 Let's create a **new project** on SonarQube to launch our first code scan.
 
 <details><summary><b>Step 1: </b></summary>
