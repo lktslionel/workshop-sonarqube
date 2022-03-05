@@ -46,7 +46,7 @@ You follow the workshop, you need to have this tools install on your computer:
 1. Clone the workshop GitHub project</b></summary>
 
 ```
-git clone <repo-clone-url>
+git clone git@github.com:lktslionel/workshop-sonarqube.git 
 ```
 
 2. Move in the project and launch SonarQube
